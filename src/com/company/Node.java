@@ -15,6 +15,9 @@ public class Node {
     private int hManhattan;
     private int gVal;
     private int f;
+    private int h;
+    private int count;
+    private int children;
 
     // Constructor of start node
     public Node(ArrayList<Integer> start, Heuristic h, int[] GOAL, HashMap<Integer, Pair<Integer, Integer>> GOALMAP) {
@@ -24,10 +27,12 @@ public class Node {
         this.sethDisplaced(GOAL);
         this.gVal = 0;
         this.setf(h);
+        this.setCount(0);
     }
 
     //Constructor of all other nodes
-    public Node(Pair<Node, Action> parent, Heuristic h, int[] GOAL, HashMap<Integer, Pair<Integer, Integer>> GOALMAP) {
+    public Node(Pair<Node, Action> parent, Heuristic h, int[] GOAL, HashMap<Integer,
+            Pair<Integer, Integer>> GOALMAP, int count) {
         // bad path
         if (!this.setState(parent)) {
             this.state = null;
@@ -38,9 +43,21 @@ public class Node {
         this.sethManhattan(GOALMAP);
         this.setgVal();
         this.setf(h);
+        this.setCount(count);
     }
 
     // Setters and Getters
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public int getChildren(){
+        return this.children;
+    }
 
     // returns the current state arrayList
     public ArrayList<Integer> getState() {
@@ -147,34 +164,26 @@ public class Node {
         return f;
     }
 
+    //returns h
+    public int geth(){
+        return h;
+    }
+
     // sets f1 to hDisplaced
     public void setf(Heuristic h) {
         switch (h) {
             case DIS:
-                this.f = this.gethDisplaced();
+                this.h = this.gethDisplaced();
                 break;
             case MAN:
-                this.f = this.gethManhattan();
+                this.h = this.gethManhattan();
                 break;
             case BOTH:
-                this.f = this.gethManhattan() + this.gethDisplaced();
+                this.h = this.gethDisplaced()+ this.gethManhattan();
                 break;
         }
+        this.f = this.h+this.getgVal();
     }
-
-//    // Utility Functions
-//    // checks if two nodes are the same
-//    public boolean equalState(Node node) {
-//        if (this.state.equals(node.state) &&
-//                this.parent.equals(node.parent) &&
-//                this.children.equals(node.children) &&
-//                this.hDisplaced == node.hDisplaced &&
-//                this.hManhattan == node.hManhattan &&
-//                this.gVal == node.gVal) {
-//            return true;
-//        }
-//        return false;
-//    }
 
     // swaps two blocks
     public void swap(ArrayList<Integer> state, int index_a, int index_b) {
@@ -184,15 +193,16 @@ public class Node {
     }
 
     // expands the node, to find its children
-    public ArrayList<Node> expand(Heuristic h, int[] GOAL, HashMap<Integer, Pair<Integer, Integer>> GOALMAP) {
+    public ArrayList<Node> expand(Heuristic h, int[] GOAL, HashMap<Integer, Pair<Integer, Integer>> GOALMAP, int count) {
         Node tempNode;
         ArrayList<Node> children = new ArrayList<>();
         for (Action a: Action.values()) {
-            tempNode = new Node(new Pair<>(this, a), h, GOAL, GOALMAP);
+            tempNode = new Node(new Pair<>(this, a), h, GOAL, GOALMAP, count);
             if (tempNode.getState() != null) {
                 children.add(tempNode);
             }
         }
+        this.children = children.size();
         return children;
     }
 
@@ -210,13 +220,4 @@ public class Node {
         return s;
     }
 
-    // prints the current node details
-    public String printNode() {
-        return (
-                "A: " + this.getParent().getValue().name() +
-                        " | State: " + this.getState().toString() +
-                        " | Val: " + this.getgVal() +
-                        " | Man: " + this.gethManhattan() +
-                        " | Dis: " + this.gethDisplaced());
-    }
 }

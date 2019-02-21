@@ -1,0 +1,187 @@
+
+Start of problem set 1
+	Problem 1, Set 1, Expanded, 5
+State: [2, 3, 4, 1, 8, 0, 7, 6, 5]| Action: Start	| h(n): 5| g(n): 0| iterations: 0
+State: [2, 3, 0, 1, 8, 4, 7, 6, 5]| Action: Up		| h(n): 4| g(n): 1| iterations: 1
+State: [2, 0, 3, 1, 8, 4, 7, 6, 5]| Action: Left	| h(n): 3| g(n): 2| iterations: 2
+State: [0, 2, 3, 1, 8, 4, 7, 6, 5]| Action: Left	| h(n): 2| g(n): 3| iterations: 3
+State: [1, 2, 3, 0, 8, 4, 7, 6, 5]| Action: Down	| h(n): 1| g(n): 4| iterations: 4
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Right	| h(n): 0| g(n): 5| iterations: 5
+	Problem 1, Set 2, Expanded, 5
+State: [1, 3, 4, 8, 2, 5, 7, 0, 6]| Action: Start	| h(n): 5| g(n): 0| iterations: 0
+State: [1, 3, 4, 8, 2, 5, 7, 6, 0]| Action: Right	| h(n): 4| g(n): 1| iterations: 1
+State: [1, 3, 4, 8, 2, 0, 7, 6, 5]| Action: Up		| h(n): 3| g(n): 2| iterations: 2
+State: [1, 3, 0, 8, 2, 4, 7, 6, 5]| Action: Up		| h(n): 2| g(n): 3| iterations: 3
+State: [1, 0, 3, 8, 2, 4, 7, 6, 5]| Action: Left	| h(n): 1| g(n): 4| iterations: 4
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Down	| h(n): 0| g(n): 5| iterations: 5
+	Problem 1, Set 3, Expanded, 5
+State: [1, 2, 3, 0, 4, 5, 8, 7, 6]| Action: Start	| h(n): 5| g(n): 0| iterations: 0
+State: [1, 2, 3, 8, 4, 5, 0, 7, 6]| Action: Down	| h(n): 4| g(n): 1| iterations: 1
+State: [1, 2, 3, 8, 4, 5, 7, 0, 6]| Action: Right	| h(n): 3| g(n): 2| iterations: 2
+State: [1, 2, 3, 8, 4, 5, 7, 6, 0]| Action: Right	| h(n): 2| g(n): 3| iterations: 3
+State: [1, 2, 3, 8, 4, 0, 7, 6, 5]| Action: Up		| h(n): 1| g(n): 4| iterations: 4
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Left	| h(n): 0| g(n): 5| iterations: 5
+	Problem 1, Set 4, Expanded, 5
+State: [8, 1, 3, 7, 2, 4, 6, 0, 5]| Action: Start	| h(n): 5| g(n): 0| iterations: 0
+State: [8, 1, 3, 7, 2, 4, 0, 6, 5]| Action: Left	| h(n): 4| g(n): 1| iterations: 1
+State: [8, 1, 3, 0, 2, 4, 7, 6, 5]| Action: Up		| h(n): 3| g(n): 2| iterations: 2
+State: [0, 1, 3, 8, 2, 4, 7, 6, 5]| Action: Up		| h(n): 2| g(n): 3| iterations: 3
+State: [1, 0, 3, 8, 2, 4, 7, 6, 5]| Action: Right	| h(n): 1| g(n): 4| iterations: 4
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Down	| h(n): 0| g(n): 5| iterations: 5
+	Problem 1, Set 5, Expanded, 5
+State: [1, 2, 3, 7, 8, 0, 6, 5, 4]| Action: Start	| h(n): 5| g(n): 0| iterations: 0
+State: [1, 2, 3, 7, 8, 4, 6, 5, 0]| Action: Down	| h(n): 4| g(n): 1| iterations: 1
+State: [1, 2, 3, 7, 8, 4, 6, 0, 5]| Action: Left	| h(n): 3| g(n): 2| iterations: 2
+State: [1, 2, 3, 7, 8, 4, 0, 6, 5]| Action: Left	| h(n): 2| g(n): 3| iterations: 3
+State: [1, 2, 3, 0, 8, 4, 7, 6, 5]| Action: Up		| h(n): 1| g(n): 4| iterations: 4
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Right	| h(n): 0| g(n): 5| iterations: 5
+End of problem set 1
+Start of problem set 2
+	Problem 2, Set 1, Expanded, 38
+State: [3, 2, 4, 1, 0, 5, 8, 7, 6]| Action: Start	| h(n): 7| g(n): 0| iterations: 0
+State: [3, 0, 4, 1, 2, 5, 8, 7, 6]| Action: Up		| h(n): 8| g(n): 1| iterations: 1
+State: [0, 3, 4, 1, 2, 5, 8, 7, 6]| Action: Left	| h(n): 8| g(n): 2| iterations: 15
+State: [1, 3, 4, 0, 2, 5, 8, 7, 6]| Action: Down	| h(n): 7| g(n): 3| iterations: 26
+State: [1, 3, 4, 8, 2, 5, 0, 7, 6]| Action: Down	| h(n): 6| g(n): 4| iterations: 29
+State: [1, 3, 4, 8, 2, 5, 7, 0, 6]| Action: Right	| h(n): 5| g(n): 5| iterations: 32
+State: [1, 3, 4, 8, 2, 5, 7, 6, 0]| Action: Right	| h(n): 4| g(n): 6| iterations: 34
+State: [1, 3, 4, 8, 2, 0, 7, 6, 5]| Action: Up		| h(n): 3| g(n): 7| iterations: 35
+State: [1, 3, 0, 8, 2, 4, 7, 6, 5]| Action: Up		| h(n): 2| g(n): 8| iterations: 36
+State: [1, 0, 3, 8, 2, 4, 7, 6, 5]| Action: Left	| h(n): 1| g(n): 9| iterations: 37
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Down	| h(n): 0| g(n): 10| iterations: 38
+	Problem 2, Set 2, Expanded, 38
+State: [8, 2, 1, 7, 0, 3, 6, 5, 4]| Action: Start	| h(n): 7| g(n): 0| iterations: 0
+State: [8, 0, 1, 7, 2, 3, 6, 5, 4]| Action: Up		| h(n): 8| g(n): 1| iterations: 1
+State: [8, 1, 0, 7, 2, 3, 6, 5, 4]| Action: Right	| h(n): 8| g(n): 2| iterations: 14
+State: [8, 1, 3, 7, 2, 0, 6, 5, 4]| Action: Down	| h(n): 7| g(n): 3| iterations: 26
+State: [8, 1, 3, 7, 2, 4, 6, 5, 0]| Action: Down	| h(n): 6| g(n): 4| iterations: 29
+State: [8, 1, 3, 7, 2, 4, 6, 0, 5]| Action: Left	| h(n): 5| g(n): 5| iterations: 32
+State: [8, 1, 3, 7, 2, 4, 0, 6, 5]| Action: Left	| h(n): 4| g(n): 6| iterations: 34
+State: [8, 1, 3, 0, 2, 4, 7, 6, 5]| Action: Up		| h(n): 3| g(n): 7| iterations: 35
+State: [0, 1, 3, 8, 2, 4, 7, 6, 5]| Action: Up		| h(n): 2| g(n): 8| iterations: 36
+State: [1, 0, 3, 8, 2, 4, 7, 6, 5]| Action: Right	| h(n): 1| g(n): 9| iterations: 37
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Down	| h(n): 0| g(n): 10| iterations: 38
+	Problem 2, Set 3, Expanded, 38
+State: [8, 1, 2, 7, 0, 3, 5, 6, 4]| Action: Start	| h(n): 7| g(n): 0| iterations: 0
+State: [8, 1, 2, 7, 6, 3, 5, 0, 4]| Action: Down	| h(n): 8| g(n): 1| iterations: 1
+State: [8, 1, 2, 7, 6, 3, 0, 5, 4]| Action: Left	| h(n): 8| g(n): 2| iterations: 14
+State: [8, 1, 2, 0, 6, 3, 7, 5, 4]| Action: Up		| h(n): 7| g(n): 3| iterations: 27
+State: [0, 1, 2, 8, 6, 3, 7, 5, 4]| Action: Up		| h(n): 6| g(n): 4| iterations: 30
+State: [1, 0, 2, 8, 6, 3, 7, 5, 4]| Action: Right	| h(n): 5| g(n): 5| iterations: 32
+State: [1, 2, 0, 8, 6, 3, 7, 5, 4]| Action: Right	| h(n): 4| g(n): 6| iterations: 34
+State: [1, 2, 3, 8, 6, 0, 7, 5, 4]| Action: Down	| h(n): 3| g(n): 7| iterations: 35
+State: [1, 2, 3, 8, 6, 4, 7, 5, 0]| Action: Down	| h(n): 2| g(n): 8| iterations: 36
+State: [1, 2, 3, 8, 6, 4, 7, 0, 5]| Action: Left	| h(n): 1| g(n): 9| iterations: 37
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Up		| h(n): 0| g(n): 10| iterations: 38
+	Problem 2, Set 4, Expanded, 38
+State: [2, 3, 5, 1, 0, 4, 8, 7, 6]| Action: Start	| h(n): 7| g(n): 0| iterations: 0
+State: [2, 3, 5, 1, 4, 0, 8, 7, 6]| Action: Right	| h(n): 8| g(n): 1| iterations: 1
+State: [2, 3, 0, 1, 4, 5, 8, 7, 6]| Action: Up		| h(n): 8| g(n): 2| iterations: 18
+State: [2, 0, 3, 1, 4, 5, 8, 7, 6]| Action: Left	| h(n): 7| g(n): 3| iterations: 23
+State: [0, 2, 3, 1, 4, 5, 8, 7, 6]| Action: Left	| h(n): 6| g(n): 4| iterations: 31
+State: [1, 2, 3, 0, 4, 5, 8, 7, 6]| Action: Down	| h(n): 5| g(n): 5| iterations: 33
+State: [1, 2, 3, 8, 4, 5, 0, 7, 6]| Action: Down	| h(n): 4| g(n): 6| iterations: 34
+State: [1, 2, 3, 8, 4, 5, 7, 0, 6]| Action: Right	| h(n): 3| g(n): 7| iterations: 35
+State: [1, 2, 3, 8, 4, 5, 7, 6, 0]| Action: Right	| h(n): 2| g(n): 8| iterations: 36
+State: [1, 2, 3, 8, 4, 0, 7, 6, 5]| Action: Up		| h(n): 1| g(n): 9| iterations: 37
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Left	| h(n): 0| g(n): 10| iterations: 38
+	Problem 2, Set 5, Expanded, 21
+State: [3, 4, 0, 1, 2, 5, 8, 7, 6]| Action: Start	| h(n): 8| g(n): 0| iterations: 0
+State: [3, 0, 4, 1, 2, 5, 8, 7, 6]| Action: Left	| h(n): 8| g(n): 1| iterations: 1
+State: [0, 3, 4, 1, 2, 5, 8, 7, 6]| Action: Left	| h(n): 8| g(n): 2| iterations: 3
+State: [1, 3, 4, 0, 2, 5, 8, 7, 6]| Action: Down	| h(n): 7| g(n): 3| iterations: 5
+State: [1, 3, 4, 8, 2, 5, 0, 7, 6]| Action: Down	| h(n): 6| g(n): 4| iterations: 7
+State: [1, 3, 4, 8, 2, 5, 7, 0, 6]| Action: Right	| h(n): 5| g(n): 5| iterations: 10
+State: [1, 3, 4, 8, 2, 5, 7, 6, 0]| Action: Right	| h(n): 4| g(n): 6| iterations: 13
+State: [1, 3, 4, 8, 2, 0, 7, 6, 5]| Action: Up		| h(n): 3| g(n): 7| iterations: 15
+State: [1, 3, 0, 8, 2, 4, 7, 6, 5]| Action: Up		| h(n): 2| g(n): 8| iterations: 17
+State: [1, 0, 3, 8, 2, 4, 7, 6, 5]| Action: Left	| h(n): 1| g(n): 9| iterations: 19
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Down	| h(n): 0| g(n): 10| iterations: 21
+End of problem set 2
+Start of problem set 3
+	Problem 3, Set 1, Expanded, 305
+State: [3, 4, 5, 2, 1, 0, 8, 6, 7]| Action: Start	| h(n): 7| g(n): 0| iterations: 0
+State: [3, 4, 0, 2, 1, 5, 8, 6, 7]| Action: Up		| h(n): 7| g(n): 1| iterations: 1
+State: [3, 0, 4, 2, 1, 5, 8, 6, 7]| Action: Left	| h(n): 7| g(n): 2| iterations: 2
+State: [0, 3, 4, 2, 1, 5, 8, 6, 7]| Action: Left	| h(n): 7| g(n): 3| iterations: 8
+State: [2, 3, 4, 0, 1, 5, 8, 6, 7]| Action: Down	| h(n): 7| g(n): 4| iterations: 10
+State: [2, 3, 4, 1, 0, 5, 8, 6, 7]| Action: Right	| h(n): 7| g(n): 5| iterations: 18
+State: [2, 3, 4, 1, 6, 5, 8, 0, 7]| Action: Down	| h(n): 8| g(n): 6| iterations: 38
+State: [2, 3, 4, 1, 6, 5, 8, 7, 0]| Action: Right	| h(n): 8| g(n): 7| iterations: 107
+State: [2, 3, 4, 1, 6, 0, 8, 7, 5]| Action: Up		| h(n): 7| g(n): 8| iterations: 183
+State: [2, 3, 0, 1, 6, 4, 8, 7, 5]| Action: Up		| h(n): 6| g(n): 9| iterations: 187
+State: [2, 0, 3, 1, 6, 4, 8, 7, 5]| Action: Left	| h(n): 5| g(n): 10| iterations: 191
+State: [0, 2, 3, 1, 6, 4, 8, 7, 5]| Action: Left	| h(n): 4| g(n): 11| iterations: 193
+State: [1, 2, 3, 0, 6, 4, 8, 7, 5]| Action: Down	| h(n): 3| g(n): 12| iterations: 301
+State: [1, 2, 3, 8, 6, 4, 0, 7, 5]| Action: Down	| h(n): 2| g(n): 13| iterations: 303
+State: [1, 2, 3, 8, 6, 4, 7, 0, 5]| Action: Right	| h(n): 1| g(n): 14| iterations: 304
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Up		| h(n): 0| g(n): 15| iterations: 305
+	Problem 3, Set 2, Expanded, 305
+State: [3, 2, 4, 0, 5, 6, 1, 8, 7]| Action: Start	| h(n): 7| g(n): 0| iterations: 0
+State: [3, 2, 4, 1, 5, 6, 0, 8, 7]| Action: Down	| h(n): 7| g(n): 1| iterations: 1
+State: [3, 2, 4, 1, 5, 6, 8, 0, 7]| Action: Right	| h(n): 7| g(n): 2| iterations: 4
+State: [3, 2, 4, 1, 5, 6, 8, 7, 0]| Action: Right	| h(n): 7| g(n): 3| iterations: 6
+State: [3, 2, 4, 1, 5, 0, 8, 7, 6]| Action: Up		| h(n): 7| g(n): 4| iterations: 13
+State: [3, 2, 4, 1, 0, 5, 8, 7, 6]| Action: Left	| h(n): 7| g(n): 5| iterations: 23
+State: [3, 0, 4, 1, 2, 5, 8, 7, 6]| Action: Up		| h(n): 8| g(n): 6| iterations: 44
+State: [0, 3, 4, 1, 2, 5, 8, 7, 6]| Action: Left	| h(n): 8| g(n): 7| iterations: 174
+State: [1, 3, 4, 0, 2, 5, 8, 7, 6]| Action: Down	| h(n): 7| g(n): 8| iterations: 191
+State: [1, 3, 4, 8, 2, 5, 0, 7, 6]| Action: Down	| h(n): 6| g(n): 9| iterations: 195
+State: [1, 3, 4, 8, 2, 5, 7, 0, 6]| Action: Right	| h(n): 5| g(n): 10| iterations: 199
+State: [1, 3, 4, 8, 2, 5, 7, 6, 0]| Action: Right	| h(n): 4| g(n): 11| iterations: 300
+State: [1, 3, 4, 8, 2, 0, 7, 6, 5]| Action: Up		| h(n): 3| g(n): 12| iterations: 302
+State: [1, 3, 0, 8, 2, 4, 7, 6, 5]| Action: Up		| h(n): 2| g(n): 13| iterations: 303
+State: [1, 0, 3, 8, 2, 4, 7, 6, 5]| Action: Left	| h(n): 1| g(n): 14| iterations: 304
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Down	| h(n): 0| g(n): 15| iterations: 305
+	Problem 3, Set 3, Expanded, 304
+State: [3, 0, 5, 2, 7, 4, 1, 8, 6]| Action: Start	| h(n): 7| g(n): 0| iterations: 0
+State: [0, 3, 5, 2, 7, 4, 1, 8, 6]| Action: Left	| h(n): 7| g(n): 1| iterations: 1
+State: [2, 3, 5, 0, 7, 4, 1, 8, 6]| Action: Down	| h(n): 7| g(n): 2| iterations: 4
+State: [2, 3, 5, 1, 7, 4, 0, 8, 6]| Action: Down	| h(n): 7| g(n): 3| iterations: 6
+State: [2, 3, 5, 1, 7, 4, 8, 0, 6]| Action: Right	| h(n): 7| g(n): 4| iterations: 11
+State: [2, 3, 5, 1, 0, 4, 8, 7, 6]| Action: Up		| h(n): 7| g(n): 5| iterations: 23
+State: [2, 3, 5, 1, 4, 0, 8, 7, 6]| Action: Right	| h(n): 8| g(n): 6| iterations: 50
+State: [2, 3, 0, 1, 4, 5, 8, 7, 6]| Action: Up		| h(n): 8| g(n): 7| iterations: 170
+State: [2, 0, 3, 1, 4, 5, 8, 7, 6]| Action: Left	| h(n): 7| g(n): 8| iterations: 205
+State: [0, 2, 3, 1, 4, 5, 8, 7, 6]| Action: Left	| h(n): 6| g(n): 9| iterations: 207
+State: [1, 2, 3, 0, 4, 5, 8, 7, 6]| Action: Down	| h(n): 5| g(n): 10| iterations: 209
+State: [1, 2, 3, 8, 4, 5, 0, 7, 6]| Action: Down	| h(n): 4| g(n): 11| iterations: 211
+State: [1, 2, 3, 8, 4, 5, 7, 0, 6]| Action: Right	| h(n): 3| g(n): 12| iterations: 298
+State: [1, 2, 3, 8, 4, 5, 7, 6, 0]| Action: Right	| h(n): 2| g(n): 13| iterations: 300
+State: [1, 2, 3, 8, 4, 0, 7, 6, 5]| Action: Up		| h(n): 1| g(n): 14| iterations: 302
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Left	| h(n): 0| g(n): 15| iterations: 304
+	Problem 3, Set 4, Expanded, 201
+State: [3, 4, 5, 0, 2, 6, 1, 8, 7]| Action: Start	| h(n): 8| g(n): 0| iterations: 0
+State: [3, 4, 5, 1, 2, 6, 0, 8, 7]| Action: Down	| h(n): 8| g(n): 1| iterations: 1
+State: [3, 4, 5, 1, 2, 6, 8, 0, 7]| Action: Right	| h(n): 8| g(n): 2| iterations: 4
+State: [3, 4, 5, 1, 2, 6, 8, 7, 0]| Action: Right	| h(n): 8| g(n): 3| iterations: 6
+State: [3, 4, 5, 1, 2, 0, 8, 7, 6]| Action: Up		| h(n): 8| g(n): 4| iterations: 22
+State: [3, 4, 0, 1, 2, 5, 8, 7, 6]| Action: Up		| h(n): 8| g(n): 5| iterations: 24
+State: [3, 0, 4, 1, 2, 5, 8, 7, 6]| Action: Left	| h(n): 8| g(n): 6| iterations: 73
+State: [0, 3, 4, 1, 2, 5, 8, 7, 6]| Action: Left	| h(n): 8| g(n): 7| iterations: 139
+State: [1, 3, 4, 0, 2, 5, 8, 7, 6]| Action: Down	| h(n): 7| g(n): 8| iterations: 187
+State: [1, 3, 4, 8, 2, 5, 0, 7, 6]| Action: Down	| h(n): 6| g(n): 9| iterations: 189
+State: [1, 3, 4, 8, 2, 5, 7, 0, 6]| Action: Right	| h(n): 5| g(n): 10| iterations: 191
+State: [1, 3, 4, 8, 2, 5, 7, 6, 0]| Action: Right	| h(n): 4| g(n): 11| iterations: 193
+State: [1, 3, 4, 8, 2, 0, 7, 6, 5]| Action: Up		| h(n): 3| g(n): 12| iterations: 195
+State: [1, 3, 0, 8, 2, 4, 7, 6, 5]| Action: Up		| h(n): 2| g(n): 13| iterations: 197
+State: [1, 0, 3, 8, 2, 4, 7, 6, 5]| Action: Left	| h(n): 1| g(n): 14| iterations: 199
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Down	| h(n): 0| g(n): 15| iterations: 201
+	Problem 3, Set 5, Expanded, 396
+State: [2, 3, 5, 7, 4, 0, 1, 8, 6]| Action: Start	| h(n): 8| g(n): 0| iterations: 0
+State: [2, 3, 0, 7, 4, 5, 1, 8, 6]| Action: Up		| h(n): 8| g(n): 1| iterations: 1
+State: [2, 0, 3, 7, 4, 5, 1, 8, 6]| Action: Left	| h(n): 7| g(n): 2| iterations: 3
+State: [2, 4, 3, 7, 0, 5, 1, 8, 6]| Action: Down	| h(n): 7| g(n): 3| iterations: 5
+State: [2, 4, 3, 0, 7, 5, 1, 8, 6]| Action: Left	| h(n): 7| g(n): 4| iterations: 15
+State: [2, 4, 3, 1, 7, 5, 0, 8, 6]| Action: Down	| h(n): 7| g(n): 5| iterations: 31
+State: [2, 4, 3, 1, 7, 5, 8, 0, 6]| Action: Right	| h(n): 7| g(n): 6| iterations: 56
+State: [2, 4, 3, 1, 0, 5, 8, 7, 6]| Action: Up		| h(n): 7| g(n): 7| iterations: 116
+State: [2, 0, 3, 1, 4, 5, 8, 7, 6]| Action: Up		| h(n): 7| g(n): 8| iterations: 195
+State: [0, 2, 3, 1, 4, 5, 8, 7, 6]| Action: Left	| h(n): 6| g(n): 9| iterations: 388
+State: [1, 2, 3, 0, 4, 5, 8, 7, 6]| Action: Down	| h(n): 5| g(n): 10| iterations: 390
+State: [1, 2, 3, 8, 4, 5, 0, 7, 6]| Action: Down	| h(n): 4| g(n): 11| iterations: 392
+State: [1, 2, 3, 8, 4, 5, 7, 0, 6]| Action: Right	| h(n): 3| g(n): 12| iterations: 393
+State: [1, 2, 3, 8, 4, 5, 7, 6, 0]| Action: Right	| h(n): 2| g(n): 13| iterations: 394
+State: [1, 2, 3, 8, 4, 0, 7, 6, 5]| Action: Up		| h(n): 1| g(n): 14| iterations: 395
+State: [1, 2, 3, 8, 0, 4, 7, 6, 5]| Action: Left	| h(n): 0| g(n): 15| iterations: 396
+End of problem set 3
