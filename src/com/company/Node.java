@@ -2,6 +2,7 @@ package com.company;
 
 import javafx.util.Pair;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Node {
@@ -9,7 +10,6 @@ public class Node {
     // manage the current state
     private ArrayList<Integer> state;
     private Pair<Node, Action> parent;
-    //private ArrayList<Pair<Node, Action>> children;
     // manage the heuristic functions
     private int hDisplaced;
     private int hManhattan;
@@ -18,6 +18,12 @@ public class Node {
     private int h;
     private int count;
     private int children;
+
+
+    //default used for testing
+    public Node(ArrayList<Integer> start){
+        this.state = start;
+    }
 
     // Constructor of start node
     public Node(ArrayList<Integer> start, Heuristic h, int[] GOAL, HashMap<Integer, Pair<Integer, Integer>> GOALMAP) {
@@ -102,16 +108,6 @@ public class Node {
     public void setParent(Pair<Node, Action> parent) {
         this.parent = parent;
     }
-
-//    //gets the children arrayList
-//    public ArrayList<Pair<Node, Action>> getChildren() {
-//        return children;
-//    }
-
-//    //sets the children
-//    public void setChildren(ArrayList<Pair<Node, Action>> children) {
-//        this.children = children;
-//    }
 
     // returns hDisplaced
     public int gethDisplaced() {
@@ -207,7 +203,7 @@ public class Node {
     }
 
     // prints the board, given the current state
-    public String printBoard() {
+    public void printBoard() {
         int count = 0;
         String s = "";
         for (int row = 0; row < 3; row++) {
@@ -217,7 +213,10 @@ public class Node {
             }
             s += "\n";
         }
-        return s;
+        System.out.println(s);
     }
 
+    public static void main(String args[]){
+        (new Node(new ArrayList<>(Arrays.asList(2,3,4,1,8,0,7,6,5)))).printBoard();
+    }
 }
